@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script defer src="script.js"></script>
+
+  </head>
+  <body>
+    <div class="card">
+
+      <div class="card__img">
+        <img class="img__product" src="/article-preview-component-master/images/drawers.jpg" alt="drawer">
+      </div>
+
+      <div class="card__content flow">
+        <a href="#">
+          <h3 class="card__content__title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h3>
+        </a>
+        <p class="card__content__text">Ever been in a room and felt like somthing was missing? Perhaps it felt slightly bare and univiting. I've got some simle tips to help you make any room feel complete.</p>
+      
+        <div class="card__content__footer">
+          <div class="author">
+            <img class="author__avatar" src="/article-preview-component-master/images/avatar-michelle.jpg" alt="michelle">
+
+            <div class="author__info">
+              <a href="#">
+                <h4 class="author__name">Michelle Appleton</h4>
+              </a>
+
+              <div class="author__publish-date">28 Jun 202</div>
+            </div>
+          </div>
+
+          <div class="share">
+
+            <button class="share__button active">
+              <ion-icon name="arrow-undo-outline"></ion-icon>
+            </button>
+
+            <button class="share__options active">
+              <span>Share</span>
+              <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+              <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+              <a href="#"> <ion-icon name="logo-pinterest"></ion-icon> </a>
+
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
